@@ -28,5 +28,7 @@
   - name: test123
     command: date
     register: date_value
+  - name: docker
+    command: docker ps
 
 
