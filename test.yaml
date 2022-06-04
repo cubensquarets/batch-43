@@ -37,6 +37,9 @@
     docker_container:
        name: cubensquare
        image: cubensquare/testimage-1
+       
+  - name: list container
+    command: docker ps
 
 
 
